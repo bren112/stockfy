@@ -62,7 +62,15 @@
 .login-form button:hover {
   background-color: #444;
 }
+.login-form-container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
 
+.login-form-container h1 span {
+  color: #1e90ff;
+}
 @media (max-width: 768px) {
   .login-container {
     flex-direction: column;

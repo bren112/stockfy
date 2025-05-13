@@ -22,7 +22,8 @@ const Login = ({ onLogin }) => {
       </div>
       <div className="login-form-container">
         <form onSubmit={handleSubmit} className="login-form">
-          <h2>stockfy IA</h2>
+        <h1>Stockfy <span>IA</span></h1>
+
           <input
             type="text"
             placeholder="Usuário"
