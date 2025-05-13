@@ -1,0 +1,71 @@
+.home-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Imagem de fundo opaca */
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  
+  /* Card central ocupando mais espaço */
+  .content-box {
+    display: flex;
+    gap: 40px;
+    padding: 50px 60px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    max-width: 1000px;
+    width: 90%;
+    height: 70%;
+    align-items: center;
+  }
+  
+  .content-text {
+    flex: 1;
+  }
+  
+  .content-text h1 {
+    font-size: 3rem;
+    color: #1e1e1e;
+    margin-bottom: 20px;
+  }
+  
+  .content-text h1 span {
+    color: #1e90ff;
+  }
+  
+  .content-text p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+ 
+  .content-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  

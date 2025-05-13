@@ -1,0 +1,12 @@
+.side-header {
+    position: fixed;
+    top: 60px; /* abaixo do top-header */
+    left: 0;
+    width: 200px;
+    height: calc(100vh - 60px);
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
